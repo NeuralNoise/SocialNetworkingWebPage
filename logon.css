@@ -1,0 +1,120 @@
+body 
+{
+	background: url(images/logonBG.png) no-repeat center center fixed;
+	 -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	font-family: "Calibri", Georgia, Serif;
+	color: lime;
+}
+hr
+{
+	border-color: lime;
+	background-color: lime;
+	color: lime;
+}
+#heading
+{
+	font-size: 160%;
+}
+a:link 
+{
+    color: lime;
+    text-decoration:none;
+}
+
+/* visited link */
+a:visited 
+{
+    color: lime;
+    text-decoration:none;
+}
+
+/* mouse over link */
+a:hover 
+{
+    color: green;
+    text-decoration:none;
+}
+
+/* selected link */
+a:active 
+{
+    color: green;
+    text-decoration:none;
+}
+#topOptions
+{
+	float: right;
+	text-align: center;
+}
+.divider
+{
+	font-size: 200%;
+	text-align: top;
+}
+#lowHalf
+{ 
+	width: 20%;
+	margin-top: 15%;
+	margin-left: 40%;
+	padding: 1%;
+	border: thin solid lime;
+	//display: inline-block;
+  background: url(images/logonBlack.png) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+}
+#upperHalf
+{
+	 background: url(images/logonBlack.png); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#logonT
+{
+	font-size: 125%;
+	vertical-align:middle;
+}
+#password
+{
+	font-size: 115%;
+	background-color: black;
+	border-color: lime;
+	color: lime;
+}
+#username
+{
+	font-size: 115%;
+	background-color: black;
+	border-color: lime;
+	color: lime;
+}
+#outer
+{
+	text-align: center;
+}
+textarea
+{
+	background-color: black;
+	border-color: lime;
+	color: lime;
+}
+#finalSubmit
+{
+	cursor:pointer;
+	background-color: black;
+	border-color: lime;
+	color: lime;
+}
+textarea:focus
+{
+	border-color: lime;
+	color: lime;
+}

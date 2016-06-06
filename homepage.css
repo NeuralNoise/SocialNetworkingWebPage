@@ -1,0 +1,367 @@
+body 
+{
+	background: url(images/logonBG.png) no-repeat center center fixed;
+	 -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	font-family: "Calibri", Georgia, Serif;
+	color: lime;
+}
+hr
+{
+	border-color: lime;
+	background-color: lime;
+	color: lime;
+}
+#heading
+{
+	font-size: 160%;
+}
+a:link 
+{
+    color: lime;
+    text-decoration:none;
+}
+/* visited link */
+a:visited 
+{
+    color: lime;
+    text-decoration:none;
+}
+
+/* mouse over link */
+a:hover 
+{
+    color: green;
+    text-decoration:none;
+}
+
+/* selected link */
+a:active 
+{
+    color: green;
+    text-decoration:none;
+}
+#topOptions
+{
+	float: right;
+	text-align: center;
+}
+.divider
+{
+	font-size: 200%;
+	text-align: top;
+}
+#leftHalf
+{ 
+	text-align: center;
+	float:left;
+	padding: 0.5%;
+	width: 15%;
+	height: 90vh;
+	border: thin solid lime;
+	//display: inline-block;
+  background: url(images/logonBlack.png) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+}
+#rightHalf
+{
+	float:right;
+	width:15%;
+	
+}
+#leftHalfI
+{
+	overflow-y: auto;
+	overflow-x: hidden;
+	margin: 1vh;
+	height: 85vh;
+	border: thin solid lime;	
+}
+#rightHalfN
+{ 
+	text-align: center;
+	padding: 0.5%;
+	width: cover;
+	height: 30vh;
+	border: thin solid lime;
+	//display: inline-block;
+  background: url(images/logonBlack.png) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+}
+#rightHalfI
+{
+	overflow-y: auto;
+	overflow-x: hidden;
+	margin: 1vh;
+	height: 25vh;
+	border: thin solid lime;	
+}
+#rightHalfSR
+{ 
+	text-align: center;
+	padding: 0.5%;
+	width: cover;
+	height: 30vh;
+	border: thin solid lime;
+	//display: inline-block;
+  background: url(images/logonBlack.png) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+}
+#rightHalfISR
+{
+	overflow-y: auto;
+	overflow-x: hidden;
+	margin: 1vh;
+	height: 25vh;
+	border: thin solid lime;	
+}
+#rightHalfISR1
+{
+	overflow-y: auto;
+	overflow-x: hidden;
+	margin: 1vh;
+	height: 25vh;
+	border: thin solid lime;	
+}
+#rightHalfAR
+{ 
+	text-align: center;
+	padding: 0.5%;
+	width: cover;
+	height: 30vh;
+	border: thin solid lime;
+	//display: inline-block;
+  background: url(images/logonBlack.png) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+}
+#rightHalfIAR
+{
+	overflow-y: auto;
+	overflow-x: hidden;
+	margin: 1vh;
+	height: 25vh;
+	border: thin solid lime;	
+}
+#middle
+{ 
+	float: right;
+	padding: 0.5%;
+	overflow-y: auto;
+	overflow-x: hidden;
+	margin-right:3.5%;
+	width: 60%;
+	border: thin solid lime;
+	//display: inline-block;
+  background: url(images/logonBlack.png) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+}
+#chatBoxTop
+{ 
+	font-size: 1.75vh;	
+	float: right;
+	padding: 0.5%;
+	margin-right:3.5%;
+	width: 60%;
+	border: thin solid lime;
+	//display: inline-block;
+  background: url(images/logonBlack.png) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-top:1%;
+}
+#chatBoxTopT
+{
+	float: left;
+}
+#chatBoxMiddle
+{ 
+	float: right;
+	padding:0.5%;
+	margin-right:3.5%;
+	width: 60%;
+	height: 30vh;
+	border: thin solid lime;
+	//display: inline-block;
+	background-color: black;
+}
+#chatBoxMiddleM
+{ 
+	margin:1vh;
+	width: cover;
+	height: 27vh;
+	border: 0.5vh solid lime;
+	//display: inline-block;
+	background-color: black;
+}
+#chatBoxBottom
+{ 
+	float: right;
+	padding:0.5%;
+	margin-right:3.5%;
+	width: 60%;
+	height: 7vh;
+	border: thin solid lime;
+	//display: inline-block;
+	background-color: black;
+	border: thin solid lime;
+}
+#closeChat
+{
+	float: right;
+	margin:1vh;
+	height: 4vh;
+	color: black;
+	font-size:3vh;
+	border: 0.5vh solid lime;
+	//display: inline-block;
+	background-color: lime;
+}
+#chatBoxBottomB
+{ 
+	margin:1vh;
+	width: 85%;
+	height: 4vh;
+	color: lime;
+	border: 0.5vh solid lime;
+	//display: inline-block;
+	background-color: black;
+}
+#chatBoxBottomS
+{ 
+	float: right;
+	margin:1vh;
+	width: 10%;
+	height: 5vh;
+	color: black;
+	font-size:3vh;
+	border: 0.5vh solid lime;
+	//display: inline-block;
+	background-color: lime;
+}
+#findFriend
+{
+	text-align:center;
+	font-size:3vh;
+}
+#friendSearch
+{ 
+	margin-top: 3vh;
+	float: right;
+	padding:0.5%;
+	margin-right:3.5%;
+	width: 60%;
+	border: thin solid lime;
+	//display: inline-block;
+	background-color: black;
+	border: thin solid lime;
+}
+#friendSearchB
+{ 
+	margin:1vh;
+	width: 85%;
+	height: 4vh;
+	color: lime;
+	border: 0.5vh solid lime;
+	//display: inline-block;
+	background-color: black;
+}
+#friendSearchS
+{ 
+	float: right;
+	margin:1vh;
+	width: 10%;
+	height: 5vh;
+	color: black;
+	font-size:3vh;
+	border: 0.5vh solid lime;
+	//display: inline-block;
+	background-color: lime;
+}
+#friendSearchBR
+{ 
+	margin:1vh;
+	width: 70%;
+	height: 4vh;
+	color: lime;
+	border: 0.5vh solid lime;
+	//display: inline-block;
+	background-color: black;
+}
+#friendSearchCR
+{ 
+	float: right;
+	margin:1vh;
+	width: 10%;
+	height: 5vh;
+	color: black;
+	font-size:2vh;
+	border: 0.5vh solid lime;
+	//display: inline-block;
+	background-color: lime;
+}
+#friendSearchSR
+{ 
+	float: right;
+	margin:1vh;
+	width: 10%;
+	height: 5vh;
+	color: black;
+	font-size:2vh;
+	border: 0.5vh solid lime;
+	//display: inline-block;
+	background-color: lime;
+}
+#upperHalf
+{
+	 background: url(images/logonBlack.png); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#logonL
+{
+	font-size: 150%;
+	vertical-align:middle;
+}
+#logonM
+{
+	font-size: 250%;
+}
+#emailId
+{
+	font-size: 85%;
+}
+#joinedOn
+{
+	font-size: 85%;
+}
+#logonR
+{
+	font-size: 150%;
+	vertical-align:middle;
+}
